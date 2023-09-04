@@ -33,6 +33,8 @@
             <ul class="dropdown-menu">
               <li><a class="nav-link" href="{{ route('setting.web') }}">{{ __('menu.setting_web') }}</a></li>
               <li><a class="nav-link" href="{{ route('setting.shipping') }}">{{ __('menu.setting_address') }}</a></li>
+              <li><a class="nav-link" href="{{ route('setting.career') }}">{{ __('Menu Career') }}</a></li>
+              <li><a class="nav-link" href="{{ route('setting.event') }}">{{ __('Menu Event') }}</a></li>
             </ul>
           </li>
         </ul>
